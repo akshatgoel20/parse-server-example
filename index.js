@@ -20,7 +20,8 @@ var api = new ParseServer({
       android: {
         senderId: '649318741143',
         apiKey: 'AIzaSyAWdzpUV_zwauDeUN786-13E6fr-wkC6sA'
-      },
+      }
+  },
   serverURL: process.env.SERVER_URL || 'http://localhost:1337/parse',  // Don't forget to change to https if needed
   liveQuery: {
     classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
