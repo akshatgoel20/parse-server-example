@@ -19,7 +19,7 @@ var api = new ParseServer({
   push: {
       android: {
         senderId: '649318741143',
-        apiKey: 'AIzaSyBfVqoxcwNOr4zVUd2qIq4UlS4onHLPJy4'
+        apiKey: 'AIzaSyAWdzpUV_zwauDeUN786-13E6fr-wkC6sA'
       }
   },
   serverURL: process.env.SERVER_URL || 'http://localhost:1337/parse',  // Don't forget to change to https if needed
